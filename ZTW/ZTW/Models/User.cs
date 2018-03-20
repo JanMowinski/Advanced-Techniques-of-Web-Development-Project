@@ -7,7 +7,7 @@ namespace ZTW.Models
 {
     public class User
     {
-        public long ID { get; }
+        public long ID { get; set; }
         public string DisplayName { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
