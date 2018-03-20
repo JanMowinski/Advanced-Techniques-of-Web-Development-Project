@@ -12,7 +12,7 @@ namespace ZTW.Models
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Password { get; set; }
-        public DateTime RegistrationDate { get; set; }
+        public DateTime RegistrationDate { get; set; } = DateTime.Now;
         public string Email { get; set; }
         public DateTime BirthDate { get; set; }
     }
